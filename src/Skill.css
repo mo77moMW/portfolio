@@ -1,0 +1,38 @@
+.squer{
+    position: relative;
+    height: 50vh;
+    width: 45vw;
+    background-color:#2448D8;
+    margin: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
+.circle{
+        position: absolute;
+        top: -50px;                  
+        left: 20px;                  
+        width: 8vw;
+        height: 18vh;
+        background-color:#D87C24;   
+        border-radius: 50%;          
+        border: 1px solid white;   
+        
+          
+}
+.home-card{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 768px){
+   .home-card{
+    flex-direction: column;
+   }
+   .squer{width: 80vw;height: 25vh;}
+   .circle{width: 25vw;
+        height: 10vh;}
+
+}
