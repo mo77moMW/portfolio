@@ -20,7 +20,7 @@ export default function Home(){
                     <div style={{margin:"10px 30px",gap:"10px",display:"flex"}}>
                     <img src="/facebook.png" alt="facebook" className="img" />
                     <img src="/insta.png" alt="insta" className="img"/>
-                    <img src="/linked in.png" alt="linkedin" className="img" />
+                    <img src="/Linked in.png" alt="linkedin" className="img" />
                     <img src="/watsapp.png" alt="whatsapp" className="img" />
                     <img src="/discord.png" alt="discord" className="img" />
 
