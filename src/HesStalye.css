@@ -76,6 +76,8 @@ h1{
 .img{
   width: 30;
   height: 30;
+  image-rendering: -webkit-optimize-contrast; /* لـ Safari/iPhone */
+  image-rendering: crisp-edges; /* يحافظ على الحدة */
 }
 img:hover{
   transform: scale(1.1); /* تكبير الصورة */
