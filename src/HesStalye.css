@@ -165,7 +165,7 @@ img:hover{
 }
 .divWorkCard{margin: 64px;border:solid #AAAAAA 3px;border-radius:16px;background-color:#FAFAFA}
 
-@media (max-width: 912px) {
+@media (max-width: 768px) {
   .texttype{
   font-size: 5.5vw;
   
@@ -218,7 +218,7 @@ img:hover{
 }
 
   .aboutP{font-size: 10px; margin: 0px 5px;}
-  .myphoto{ width: 75vw;height: 35vh;}
+  .myphoto{ width: 75vw;height: 30vh;}
 .myphoto2{width: 100%; padding:0px 0px;margin:10px 0px 10px 0px;
   display: flex;
   justify-content: center;align-items: center;}
