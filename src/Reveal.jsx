@@ -1,11 +1,10 @@
-// ملف Reveal.jsx (أو ضعه في components)
+
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const Reveal = ({ children, variant = "up" }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false, margin: "-100px" }); // يشتغل مرة واحدة، وشوي قبل الوصول
-
+  const isInView = useInView(ref, { once: false, margin: "-100px" }); 
   const variants = {
     up: { initial: { opacity: 0, y: 60 }, animate: { opacity: 1, y: 0 } },
     left: { initial: { opacity: 0, x: -100 }, animate: { opacity: 1, x: 0 } },
