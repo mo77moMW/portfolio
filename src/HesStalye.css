@@ -30,6 +30,7 @@
   padding: 2vh 5vw;
   border-radius: 16px;
   border: 0cm;
+  text-decoration: none;
 }
 .buttonCont{
     display: flex;

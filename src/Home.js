@@ -16,13 +16,13 @@ export default function Home(){
     
               
                 <div className="buttonCont">
-                    <button className="buttonContact">contact</button>
+                    <a className="buttonContact" href="https://mailto:mtas.mohd@gmail.com" target="_blank" >contact</a>
                     <div style={{margin:"10px 30px",gap:"10px",display:"flex"}}>
-                    <img src="facebook.png" alt="facebook" className="img" />
-                        <img src="insta.png" alt="insta" className="img" />
-                        <img src="Linked in.png" alt="linkedin" className="img" />
-                        <img src="watsapp.png" alt="whatsapp" className="img" />
-                        <img src="discord.png" alt="discord" className="img" />
+                       {/* <img src="facebook.png" alt="facebook" className="img" />*/}
+                        <a href="https://www.instagram.com/motariq2004?igsh=MWtsd3dlZzAxMDQ3Yw=="><img src="insta.png" alt="insta" className="img" /></a>
+                        <a href="https://www.linkedin.com/in/mohammed-tariq-952481290/"><img src="Linked in.png" alt="linkedin" className="img" /></a>
+                        {/*<img src="watsapp.png" alt="whatsapp" className="img" />*/}
+                        {/*<img src="discord.png" alt="discord" className="img" />*/}
                     </div>
                     
                 </div>
