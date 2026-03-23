@@ -37,7 +37,7 @@ export default function MyProject(){
                 <img src="AEC 4.png" alt="3ahed Home" className="phto-project" />
             </div>
             <p style={{color:"white"}}className="pproject">AEC Club Official Website: A Full-Stack platform built with React, Flask, and SQL, featuring Figma-designed UI, Framer Motion animations, and i18next for seamless AR/EN localization.</p>
-             <div style={{display:"flex",gap:"5px",justifyContent:"center"}}><div className="wor">UI/UX design</div><div className="wor">Frontend</div></div>
+             <div style={{display:"flex",gap:"5px",justifyContent:"center"}}><div className="wor">UI/UX design</div><div className="wor">FullStack</div></div>
         </a></div></Reveal>
     </div>)
 }
