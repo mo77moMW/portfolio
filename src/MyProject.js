@@ -28,7 +28,7 @@ export default function MyProject(){
              <div style={{display:"flex",gap:"5px",justifyContent:"center"}}><div className="wor">UI/UX design</div><div className="wor">Frontend</div></div>
         </div></Reveal>
         <Reveal>
-            <div className="card-project" > <a href="https://www.al3ahed.com/"style={{textDecoration:"none"}}>
+            <div className="card-project" > <a href="https://github.com/mo77moMW/AEC-club_F"style={{textDecoration:"none"}}>
             <h1 style={{color:"white",fontSize:"5vw",margin:"10px"}}>AEC club website</h1>
             <div className="phto-card">
                 <img src="AEC 1.png" alt="3ahed Home" className="phto-project" />
