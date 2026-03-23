@@ -28,7 +28,7 @@ export default function MyProject(){
              <div style={{display:"flex",gap:"5px",justifyContent:"center"}}><div className="wor">UI/UX design</div><div className="wor">Frontend</div></div>
         </div></Reveal>
         <Reveal>
-            <div className="card-project" >
+            <div className="card-project" > <a href="https://www.al3ahed.com/"style={{textDecoration:"none"}}>
             <h1 style={{color:"white",fontSize:"5vw",margin:"10px"}}>AEC club website</h1>
             <div className="phto-card">
                 <img src="AEC 1.png" alt="3ahed Home" className="phto-project" />
@@ -38,6 +38,6 @@ export default function MyProject(){
             </div>
             <p style={{color:"white"}}className="pproject">AEC Club Official Website: A Full-Stack platform built with React, Flask, and SQL, featuring Figma-designed UI, Framer Motion animations, and i18next for seamless AR/EN localization.</p>
              <div style={{display:"flex",gap:"5px",justifyContent:"center"}}><div className="wor">UI/UX design</div><div className="wor">Frontend</div></div>
-        </div></Reveal>
+        </a></div></Reveal>
     </div>)
 }
